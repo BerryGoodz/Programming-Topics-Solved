@@ -1,5 +1,6 @@
 #include <iostream>
 
+// connect BST nodes at the same level
 using namespace std;
 
 struct Node
