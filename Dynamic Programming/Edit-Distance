@@ -46,8 +46,8 @@ int minimumEdit(string s1, string s2)
 }
 int main ()
 {
-    string s1 = "dayumson";
-    string s2 = "wtfson";
+    string s1 = "pineapple";
+    string s2 = "poineapple";
     cout << minimumEdit(s1, s2);
     return 0;
 }
