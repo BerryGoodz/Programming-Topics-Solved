@@ -5,6 +5,15 @@ using namespace std;
 #define ROW 6
 #define COL 5
 
+/*
+    In the matrix consisting of only 1 and 0, find the biggest square possible
+    ex. | 1, 0, 1 |
+        | 0, 1, 1 |
+        | 0, 1, 1 |
+    Biggest square size is 2 X 2.
+    In my function, this will return 2 instead.
+
+*/
 int getSquareSize(int matrix[ROW][COL], int squareSize, int rowIndex, int colIndex)
 {
     if(squareSize - 1 + rowIndex >= ROW ||
