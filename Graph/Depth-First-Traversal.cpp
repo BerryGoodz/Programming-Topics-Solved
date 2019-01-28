@@ -12,7 +12,7 @@ public:
     }
     void addEdge(int v, int a)
     {
-        adj[v].push_back(a);
+        adj[v].push_back(a); // this is a directed graph
     }
     void DFSUtil(int v, bool visited[])
     {
